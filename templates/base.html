@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" >
+    <title>JVRLC</title>
+</head>
+<body>
+
+<a href="{%url 'index' %}">
+    <h1>La boutique de JVRLC</h1>
+</a>
+
+{% if  user.is_authenticated %}
+    {{ user.username }} 
+<a href="{% url 'logout' %}"> Déconnexion</a>
+{% else %}
+    <a href="{% url 'login' %}">Connexion</a>
+    <a href="{% url 'signup' %}">S'inscrire</a>
+{% endif %}
+
+
+{% block content %}
+{% endblock %}
+
+  </body>
+</html>
