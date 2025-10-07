@@ -6,10 +6,10 @@
 
 ---
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Ce projet est un **site e-commerce** développé avec le framework **Django** dans le cadre de ma formation Python.  
-Je suis ce projet à travers la vidéo du créateur **Docstring**, afin de comprendre :
+Je suis ce projet à travers la vidéo du créateur **[Docstring](https://www.youtube.com/watch?v=odIR-00ggVI&t=4089s)**, afin de comprendre :
 - la structure d’un projet Django,
 - la gestion des utilisateurs,
 - la création de modèles et de templates,
@@ -17,7 +17,7 @@ Je suis ce projet à travers la vidéo du créateur **Docstring**, afin de compr
 
 ---
 
-## 🧠 Technologies utilisées
+## Technologies utilisées
 
 | Catégorie | Outil |
 |------------|--------|
@@ -38,3 +38,5 @@ Clone le projet et installe les dépendances :
 git clone https://github.com/ton-utilisateur/ton-projet.git
 cd ton-projet
 pip install -r requirements.txt
+git checkout chore/fix-cart-increment
+git rebase --onto main --root
